@@ -25,7 +25,7 @@ int main() {
     
     if (cin.fail() || lengthPassword < 6 || lengthPassword > 32) {
         cout << "[!] Invalid password length!" << endl;
-        return 1;
+        return 0;
     }
     
     string password = generatePssword(lengthPassword);
